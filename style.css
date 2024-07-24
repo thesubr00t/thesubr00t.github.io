@@ -37,23 +37,18 @@ p:nth-of-type(3) {
   text-indent: 1.5rem;
 }
 
-p:first-of-type {
+p:first-of-type,
+p:last-of-type {
   font-size: 1rem;
 }
 
 p:last-of-type {
   margin-bottom: 0;
-  font-size: 1rem;
-}
-
-p:last-of-type > a {
-  font-size: 1rem;
 }
 
 a {
   color: #1e90ff;
   text-decoration: none;
-  font-size: 1.2rem;
 }
 
 a:hover {
@@ -65,8 +60,14 @@ a:hover {
   h1 {
     font-size: 2.5rem;
   }
+
   p {
     font-size: 1rem;
+  }
+
+  p:first-of-type,
+  p:last-of-type {
+    font-size: 0.8rem;
   }
 }
 
@@ -74,7 +75,13 @@ a:hover {
   h1 {
     font-size: 2rem;
   }
+
   p {
     font-size: 0.9rem;
+  }
+
+  p:first-of-type,
+  p:last-of-type {
+    font-size: 0.7rem;
   }
 }
