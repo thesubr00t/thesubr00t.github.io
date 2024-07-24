@@ -15,7 +15,7 @@ body {
 main {
   max-width: 768px;
   width: 100%;
-  padding: 2rem;
+  padding: 1.5rem;
   padding-bottom: 0;
   flex: 1;
   margin: 0 auto;
@@ -23,7 +23,7 @@ main {
 
 h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
@@ -32,8 +32,8 @@ p {
   line-height: 1.5;
 }
 
-p:nth-of-type(2),
-p:nth-of-type(3) {
+p:nth-of-type(3),
+p:nth-of-type(4) {
   text-indent: 1.5rem;
 }
 
@@ -44,6 +44,11 @@ p:last-of-type {
 
 p:last-of-type {
   margin-bottom: 0;
+}
+
+p:first-of-type > span {
+  background-color: #333;
+  padding: 0 0.2rem;
 }
 
 a {
