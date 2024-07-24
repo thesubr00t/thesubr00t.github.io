@@ -42,6 +42,7 @@ p:first-of-type {
 
 p:last-of-type {
   margin-bottom: 0;
+  font-size: 1rem;
 }
 
 a {
